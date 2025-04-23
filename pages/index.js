@@ -7,7 +7,7 @@ import * as SplashScreen from 'expo-splash-screen';
 
 export default function Bem_Vindo() {
   const navigation = useNavigation();
-
+//comentario
   const [loaded, error] = useFonts({
     'Oswald': require("../assets/fonts/Oswald-VariableFont_wght.ttf"),
   });
